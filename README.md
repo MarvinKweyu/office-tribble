@@ -1,2 +1,3 @@
 # office-tribble
-A GIF sharing application.
+
+An office GIF sharing application.

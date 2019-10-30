@@ -1,0 +1,40 @@
+{
+  "name": "office-tribble",
+  "version": "1.0.0",
+  "description": "A GIF sharing application.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.1",
+    "nodemon": "^1.19.4",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvinKweyu/office-tribble.git"
+  },
+  "author": "Marvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarvinKweyu/office-tribble/issues"
+  },
+  "homepage": "https://github.com/MarvinKweyu/office-tribble#readme"
+}
